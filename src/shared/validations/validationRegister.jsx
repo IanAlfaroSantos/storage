@@ -17,7 +17,7 @@ export const nameValidation = {
     validate: {
       asyncUnique: async (value) => {
         try {
-          const res = await fetch(`https://storagebackend-production.up.railway.app/almacenadora/users/check-username?username=${value}`);
+          const res = await fetch(`https://storage-backend-46ur.onrender.com/almacenadora/users/check-username?username=${value}`);
           const { exists } = await res.json();
           return !exists || "Username already exists";
         } catch (err) {
@@ -36,7 +36,7 @@ export const nameValidation = {
     validate: {
       asyncUnique: async (value) => {
         try {
-            const res = await fetch(`https://storagebackend-production.up.railway.app/almacenadora/users/check-email?email=${value}`);
+            const res = await fetch(`https://storage-backend-46ur.onrender.com/almacenadora/users/check-email?email=${value}`);
           const { exists } = await res.json();
           return !exists || "Email already exists";
         } catch (err) {

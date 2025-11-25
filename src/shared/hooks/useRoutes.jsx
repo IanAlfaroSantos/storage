@@ -3,7 +3,7 @@ import { useRoutes } from "react-router-dom";
 import Login from "../../components/Login.jsx";
 import Register from "../../components/Register.jsx"
 import Dashboard from "../../components/Dashboard/Dashboard.jsx";
-import ProveedoresClientes from "../../components/Dashboard/Dashboard.jsx";
+import ProveedoresClientes from "../../components/Proveedores y Clientes/ProveedoresClientes.jsx";
 import { Products } from "../../components/productos/Productos.jsx";
 import Control from "../../components/Control/Control.jsx";
 import Categorias from "../../components/Categorias/Categoria.jsx";
