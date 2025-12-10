@@ -34,7 +34,7 @@ const Informes = () => {
   
   const handleDownloadExcel = async () => {
     try {
-      const response = await fetch("http://localhost:3000/almacenadora/informe/estadisticas");
+      const response = await fetch("https://storagebackend-production.up.railway.app/almacenadora/informe/estadisticas");
       const blob = await response.blob();
   
       const url = window.URL.createObjectURL(blob);
