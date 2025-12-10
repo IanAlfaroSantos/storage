@@ -3,7 +3,7 @@ import { logout } from "../shared/hooks/useLogout";
 
 
 const apiClient  = axios.create({
-    baseURL: 'storagebackend-production.up.railway.app/almacenadora',
+    baseURL: 'https://storagebackend-production.up.railway.app/almacenadora',
     timeout: 5000
 })
 
